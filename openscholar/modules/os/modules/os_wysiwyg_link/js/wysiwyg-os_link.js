@@ -108,7 +108,7 @@ Drupal.wysiwyg.plugins['os_link'] = {
       }
 
     }
-    Drupal.media.popups.mediaBrowserOld(function (insert) {
+    Drupal.media.popups.mediaBrowser(function (insert) {
       self.insertLink();
     }, settings['global'], {}, {
       src: Drupal.settings.osWysiwygLink.browserUrl, // because media is dumb about its query args
